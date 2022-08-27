@@ -1,77 +1,44 @@
-*{
-    padding: 0;margin: 0;
-    box-sizing: border-box;
-    text-align: center;
-    font-family: sans-serif;
-    margin-top: 20px;
-    box-sizing: border-box;
-    
-}
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: cornsilk;
-}
-.container{
-    width: 600px;
-    height: 400px;
-    box-shadow: 1px 1px 20px 1px;
-    display: flex;
-    flex-direction: column;
-    border: 2px solid black;
-    background-color: rgb(255, 244, 236);
-}
-.top-text{
-    width: 350px;
-    margin-left: 130px;
-}
-.info-text{
-    font-size: small;  
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.button{
- width: 100%;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
 
-input{
-    width: 85px;
-    height: 110px;
+<body>
+    <section class="container">
+        <div >
+            <h2>Verify Your Account</h2>
+            <div class="top-text">
+                <span>
+                    <p class="info-text">
+                        We emailed you the six digit code to cool_guy@email.Enter the code below to confirm your email address.
+                    </p>
+                </span><hr/>
+            </div>
+        </div>
 
-    font-size: 30px;
-    text-align: center;
-    
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 7px;
+        <div class="button">
 
-    display: inline-block;
-    margin: 3px;
-}
+            <input id="abhi" type="number" placeholder="0"  maxlength="1" required>
+            <input id="abhi" type="number" placeholder="0"  maxlength="1" required>
+            <input id="abhi" type="number" placeholder="0"  maxlength="1" required>
+            <input id="abhi" type="number" placeholder="0"  maxlength="1" required>
+            <input id="abhi" type="number" placeholder="0"  maxlength="1" required>
+            <input id="abhi" type="number" placeholder="0"  maxlength="1" required>
 
-input:valid{
-    border: 2px solid rgb(70, 220, 250);
-  }
+        </div>
+        <div class="bottom-text">
 
-.bottom-text{
-    margin: -10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.bottom-text p{
-    margin: 30px 20px 0px 20px;
-    width: 300px;
-    height:50px;
-    border-radius: 5px;
+            <p>This is design only. We did't actually send you an email as we dont have your email, right?</p>
 
-    font-size: 10px;
-    padding: 15px;
-    background-color: rgb(224, 210, 228);
+        </div>
+    </section>
 
-    opacity: 0.5;
-}
+</body>
 
-
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-}
+</html>
